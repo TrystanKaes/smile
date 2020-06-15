@@ -1,0 +1,29 @@
+{
+  "name": "gbooks",
+  "version": "1.0.0",
+  "description": "Google Books",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BabyHughee/CSC3916_HW0.git"
+  },
+  "author": "Trystan Kaes",
+  "license": "Student",
+  "bugs": {
+    "url": "https://github.com/BabyHughee/CSC3916_HW0/issues"
+  },
+  "homepage": "https://github.com/BabyHughee/CSC3916_HW0#readme",
+  "dependencies": {
+    "axios": ">=0.18.1",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.2"
+  }
+}
